@@ -5,7 +5,6 @@ class Solution {
         String len = String.valueOf(num);
         ArrayList<String> newNums = new ArrayList<String>();
         for (int i = 0; i < len.length(); i++) {
-            System.out.println(len.substring(i, i+1));
             newNums.add(len.substring(i, i+1));
         }
         int newNum = 0;
@@ -19,7 +18,5 @@ class Solution {
         else {
             return newNum;
         }
-
     }
-    
 }
